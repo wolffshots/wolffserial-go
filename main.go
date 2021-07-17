@@ -32,7 +32,7 @@ func main() {
 	}
 
 	for {
-		cmd := strings.Trim(get_cmd(port), "\n")
+		cmd := strings.Trim(getCmd(port), "\n")
 		fmt.Printf("cmd: %s\n", cmd)
 		if strings.EqualFold(strings.Trim(cmd, "\n "), "END") {
 			break
