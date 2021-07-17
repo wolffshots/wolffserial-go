@@ -45,7 +45,7 @@ func main() {
 	fmt.Println("end of prog")
 }
 
-func get_cmd(port serial.Port) string {
+func getCmd(port serial.Port) string {
 	buff := make([]byte, 100)
 	cmd := ""
 	for {
